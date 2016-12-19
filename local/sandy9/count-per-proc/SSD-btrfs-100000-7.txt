@@ -1,0 +1,75 @@
+MD-REAL-IO total objects: 560000 (version: 8049faa@master) time: 2016-12-14 18:43:19
+	offset=1 
+	interface=posix
+	obj-per-proc=1000 
+	precreate-per-set=3000 
+	data-sets=10 
+	lim-free-mem=100000 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=5 
+	start-index=0 
+	run-precreate
+	run-benchmark
+	run-cleanup
+	process-reports
+
+	root-dir=/mnt/test/out
+
+precreate 13.8s 70 dset 210000 obj 5.067 dset/s 15200.3 obj/s 56.5 Mib/s (0 errs)
+0: precreate 13.8s 10 dset 30000 obj 0.727 dset/s 2181.5 obj/s 8.1 Mib/s (0 errs)
+1: precreate 13.8s 10 dset 30000 obj 0.724 dset/s 2172.1 obj/s 8.1 Mib/s (0 errs)
+2: precreate 13.8s 10 dset 30000 obj 0.724 dset/s 2171.5 obj/s 8.1 Mib/s (0 errs)
+3: precreate 13.8s 10 dset 30000 obj 0.724 dset/s 2171.6 obj/s 8.1 Mib/s (0 errs)
+4: precreate 13.8s 10 dset 30000 obj 0.724 dset/s 2172.8 obj/s 8.1 Mib/s (0 errs)
+5: precreate 13.7s 10 dset 30000 obj 0.728 dset/s 2184.0 obj/s 8.1 Mib/s (0 errs)
+6: precreate 13.8s 10 dset 30000 obj 0.724 dset/s 2172.3 obj/s 8.1 Mib/s (0 errs)
+benchmark 10.7s 70000 obj 6524.4 obj/s 48.5 Mib/s (0 errs)
+0: benchmark 10.7s 10000 obj 937.6 obj/s 7.0 Mib/s (0 errs)
+1: benchmark 10.7s 10000 obj 936.7 obj/s 7.0 Mib/s (0 errs)
+2: benchmark 10.7s 10000 obj 932.3 obj/s 6.9 Mib/s (0 errs)
+3: benchmark 10.7s 10000 obj 932.6 obj/s 6.9 Mib/s (0 errs)
+4: benchmark 10.7s 10000 obj 936.8 obj/s 7.0 Mib/s (0 errs)
+5: benchmark 10.7s 10000 obj 932.1 obj/s 6.9 Mib/s (0 errs)
+6: benchmark 10.7s 10000 obj 938.5 obj/s 7.0 Mib/s (0 errs)
+benchmark 11.4s 70000 obj 6143.6 obj/s 45.7 Mib/s (0 errs)
+0: benchmark 11.4s 10000 obj 879.3 obj/s 6.5 Mib/s (0 errs)
+1: benchmark 11.3s 10000 obj 881.3 obj/s 6.6 Mib/s (0 errs)
+2: benchmark 11.4s 10000 obj 878.8 obj/s 6.5 Mib/s (0 errs)
+3: benchmark 11.4s 10000 obj 879.3 obj/s 6.5 Mib/s (0 errs)
+4: benchmark 11.4s 10000 obj 880.6 obj/s 6.6 Mib/s (0 errs)
+5: benchmark 11.4s 10000 obj 878.0 obj/s 6.5 Mib/s (0 errs)
+6: benchmark 11.4s 10000 obj 878.2 obj/s 6.5 Mib/s (0 errs)
+benchmark 12.6s 70000 obj 5562.1 obj/s 41.4 Mib/s (0 errs)
+0: benchmark 12.6s 10000 obj 795.7 obj/s 5.9 Mib/s (0 errs)
+1: benchmark 12.6s 10000 obj 795.9 obj/s 5.9 Mib/s (0 errs)
+2: benchmark 12.6s 10000 obj 796.0 obj/s 5.9 Mib/s (0 errs)
+3: benchmark 12.6s 10000 obj 795.4 obj/s 5.9 Mib/s (0 errs)
+4: benchmark 12.5s 10000 obj 797.0 obj/s 5.9 Mib/s (0 errs)
+5: benchmark 12.6s 10000 obj 795.0 obj/s 5.9 Mib/s (0 errs)
+6: benchmark 12.6s 10000 obj 794.6 obj/s 5.9 Mib/s (0 errs)
+benchmark 8.8s 70000 obj 7968.5 obj/s 59.3 Mib/s (0 errs)
+0: benchmark 8.7s 10000 obj 1143.6 obj/s 8.5 Mib/s (0 errs)
+1: benchmark 8.7s 10000 obj 1144.1 obj/s 8.5 Mib/s (0 errs)
+2: benchmark 8.8s 10000 obj 1142.5 obj/s 8.5 Mib/s (0 errs)
+3: benchmark 8.7s 10000 obj 1143.8 obj/s 8.5 Mib/s (0 errs)
+4: benchmark 8.8s 10000 obj 1142.4 obj/s 8.5 Mib/s (0 errs)
+5: benchmark 8.8s 10000 obj 1141.0 obj/s 8.5 Mib/s (0 errs)
+6: benchmark 8.8s 10000 obj 1142.3 obj/s 8.5 Mib/s (0 errs)
+benchmark 10.2s 70000 obj 6864.5 obj/s 51.1 Mib/s (0 errs)
+0: benchmark 10.2s 10000 obj 980.9 obj/s 7.3 Mib/s (0 errs)
+1: benchmark 10.2s 10000 obj 980.9 obj/s 7.3 Mib/s (0 errs)
+2: benchmark 10.2s 10000 obj 980.7 obj/s 7.3 Mib/s (0 errs)
+3: benchmark 10.2s 10000 obj 981.5 obj/s 7.3 Mib/s (0 errs)
+4: benchmark 10.2s 10000 obj 981.0 obj/s 7.3 Mib/s (0 errs)
+5: benchmark 10.2s 10000 obj 980.6 obj/s 7.3 Mib/s (0 errs)
+6: benchmark 10.2s 10000 obj 980.7 obj/s 7.3 Mib/s (0 errs)
+cleanup 17.0s 210000 obj 70 dset 12378.1 obj/s 4.126 dset/s (0 errs)
+0: cleanup 17.0s 30000 obj 10 dset 1769.1 obj/s 0.590 dset/s (0 errs)
+1: cleanup 16.9s 30000 obj 10 dset 1770.1 obj/s 0.590 dset/s (0 errs)
+2: cleanup 17.0s 30000 obj 10 dset 1768.8 obj/s 0.590 dset/s (0 errs)
+3: cleanup 17.0s 30000 obj 10 dset 1769.4 obj/s 0.590 dset/s (0 errs)
+4: cleanup 17.0s 30000 obj 10 dset 1768.6 obj/s 0.590 dset/s (0 errs)
+5: cleanup 16.9s 30000 obj 10 dset 1772.2 obj/s 0.591 dset/s (0 errs)
+6: cleanup 17.0s 30000 obj 10 dset 1768.3 obj/s 0.589 dset/s (0 errs)
+Total runtime: 84s time: 2016-12-14 18:44:44

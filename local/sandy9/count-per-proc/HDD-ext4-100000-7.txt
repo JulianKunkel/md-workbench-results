@@ -1,0 +1,75 @@
+MD-REAL-IO total objects: 560000 (version: 8049faa@master) time: 2016-12-14 20:22:53
+	offset=1 
+	interface=posix
+	obj-per-proc=1000 
+	precreate-per-set=3000 
+	data-sets=10 
+	lim-free-mem=100000 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=5 
+	start-index=0 
+	run-precreate
+	run-benchmark
+	run-cleanup
+	process-reports
+
+	root-dir=/mnt/test/out
+
+precreate 2.9s 70 dset 210000 obj 24.189 dset/s 72565.7 obj/s 269.9 Mib/s (0 errs)
+0: precreate 2.9s 10 dset 30000 obj 3.471 dset/s 10414.4 obj/s 38.7 Mib/s (0 errs)
+1: precreate 2.9s 10 dset 30000 obj 3.472 dset/s 10415.1 obj/s 38.7 Mib/s (0 errs)
+2: precreate 2.6s 10 dset 30000 obj 3.868 dset/s 11605.5 obj/s 43.2 Mib/s (0 errs)
+3: precreate 2.9s 10 dset 30000 obj 3.456 dset/s 10366.6 obj/s 38.6 Mib/s (0 errs)
+4: precreate 2.9s 10 dset 30000 obj 3.499 dset/s 10498.2 obj/s 39.0 Mib/s (0 errs)
+5: precreate 2.6s 10 dset 30000 obj 3.796 dset/s 11386.5 obj/s 42.4 Mib/s (0 errs)
+6: precreate 2.7s 10 dset 30000 obj 3.701 dset/s 11101.7 obj/s 41.3 Mib/s (0 errs)
+benchmark 2.2s 70000 obj 31232.4 obj/s 232.3 Mib/s (0 errs)
+0: benchmark 2.2s 10000 obj 4554.1 obj/s 33.9 Mib/s (0 errs)
+1: benchmark 2.2s 10000 obj 4547.9 obj/s 33.8 Mib/s (0 errs)
+2: benchmark 2.2s 10000 obj 4570.6 obj/s 34.0 Mib/s (0 errs)
+3: benchmark 2.2s 10000 obj 4619.3 obj/s 34.4 Mib/s (0 errs)
+4: benchmark 2.2s 10000 obj 4461.8 obj/s 33.2 Mib/s (0 errs)
+5: benchmark 2.2s 10000 obj 4475.5 obj/s 33.3 Mib/s (0 errs)
+6: benchmark 2.2s 10000 obj 4512.0 obj/s 33.6 Mib/s (0 errs)
+benchmark 2.0s 70000 obj 35637.0 obj/s 265.1 Mib/s (0 errs)
+0: benchmark 1.9s 10000 obj 5143.6 obj/s 38.3 Mib/s (0 errs)
+1: benchmark 1.9s 10000 obj 5155.0 obj/s 38.3 Mib/s (0 errs)
+2: benchmark 2.0s 10000 obj 5105.0 obj/s 38.0 Mib/s (0 errs)
+3: benchmark 1.9s 10000 obj 5207.3 obj/s 38.7 Mib/s (0 errs)
+4: benchmark 1.9s 10000 obj 5277.8 obj/s 39.3 Mib/s (0 errs)
+5: benchmark 2.0s 10000 obj 5091.0 obj/s 37.9 Mib/s (0 errs)
+6: benchmark 1.9s 10000 obj 5184.9 obj/s 38.6 Mib/s (0 errs)
+benchmark 2.1s 70000 obj 33368.2 obj/s 248.2 Mib/s (0 errs)
+0: benchmark 2.1s 10000 obj 4769.1 obj/s 35.5 Mib/s (0 errs)
+1: benchmark 2.1s 10000 obj 4777.5 obj/s 35.5 Mib/s (0 errs)
+2: benchmark 2.1s 10000 obj 4778.1 obj/s 35.5 Mib/s (0 errs)
+3: benchmark 1.9s 10000 obj 5235.7 obj/s 38.9 Mib/s (0 errs)
+4: benchmark 2.0s 10000 obj 5050.1 obj/s 37.6 Mib/s (0 errs)
+5: benchmark 2.0s 10000 obj 4888.6 obj/s 36.4 Mib/s (0 errs)
+6: benchmark 2.1s 10000 obj 4766.9 obj/s 35.5 Mib/s (0 errs)
+benchmark 2.1s 70000 obj 33968.5 obj/s 252.7 Mib/s (0 errs)
+0: benchmark 2.1s 10000 obj 4870.1 obj/s 36.2 Mib/s (0 errs)
+1: benchmark 2.1s 10000 obj 4854.8 obj/s 36.1 Mib/s (0 errs)
+2: benchmark 1.8s 10000 obj 5440.6 obj/s 40.5 Mib/s (0 errs)
+3: benchmark 2.1s 10000 obj 4862.9 obj/s 36.2 Mib/s (0 errs)
+4: benchmark 2.0s 10000 obj 4980.7 obj/s 37.0 Mib/s (0 errs)
+5: benchmark 2.1s 10000 obj 4866.5 obj/s 36.2 Mib/s (0 errs)
+6: benchmark 2.1s 10000 obj 4852.7 obj/s 36.1 Mib/s (0 errs)
+benchmark 2.1s 70000 obj 33316.0 obj/s 247.8 Mib/s (0 errs)
+0: benchmark 1.9s 10000 obj 5155.4 obj/s 38.3 Mib/s (0 errs)
+1: benchmark 2.1s 10000 obj 4759.5 obj/s 35.4 Mib/s (0 errs)
+2: benchmark 2.0s 10000 obj 5116.4 obj/s 38.1 Mib/s (0 errs)
+3: benchmark 2.1s 10000 obj 4789.0 obj/s 35.6 Mib/s (0 errs)
+4: benchmark 2.1s 10000 obj 4796.3 obj/s 35.7 Mib/s (0 errs)
+5: benchmark 2.1s 10000 obj 4863.7 obj/s 36.2 Mib/s (0 errs)
+6: benchmark 2.1s 10000 obj 4764.9 obj/s 35.4 Mib/s (0 errs)
+cleanup 21.2s 210000 obj 70 dset 9896.9 obj/s 3.299 dset/s (0 errs)
+0: cleanup 20.8s 30000 obj 10 dset 1442.1 obj/s 0.481 dset/s (0 errs)
+1: cleanup 21.2s 30000 obj 10 dset 1413.8 obj/s 0.471 dset/s (0 errs)
+2: cleanup 19.4s 30000 obj 10 dset 1544.3 obj/s 0.515 dset/s (0 errs)
+3: cleanup 21.2s 30000 obj 10 dset 1414.0 obj/s 0.471 dset/s (0 errs)
+4: cleanup 19.4s 30000 obj 10 dset 1546.0 obj/s 0.515 dset/s (0 errs)
+5: cleanup 20.9s 30000 obj 10 dset 1438.4 obj/s 0.479 dset/s (0 errs)
+6: cleanup 20.8s 30000 obj 10 dset 1441.6 obj/s 0.481 dset/s (0 errs)
+Total runtime: 35s time: 2016-12-14 20:23:28

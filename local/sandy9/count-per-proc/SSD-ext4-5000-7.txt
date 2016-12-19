@@ -1,0 +1,75 @@
+MD-REAL-IO total objects: 560000 (version: 8049faa@master) time: 2016-12-14 16:34:29
+	offset=1 
+	interface=posix
+	obj-per-proc=1000 
+	precreate-per-set=3000 
+	data-sets=10 
+	lim-free-mem=5000 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=5 
+	start-index=0 
+	run-precreate
+	run-benchmark
+	run-cleanup
+	process-reports
+
+	root-dir=/mnt/test/out
+
+precreate 2.2s 70 dset 210000 obj 31.446 dset/s 94338.5 obj/s 350.9 Mib/s (0 errs)
+0: precreate 2.2s 10 dset 30000 obj 4.560 dset/s 13679.1 obj/s 50.9 Mib/s (0 errs)
+1: precreate 2.2s 10 dset 30000 obj 4.505 dset/s 13515.1 obj/s 50.3 Mib/s (0 errs)
+2: precreate 2.2s 10 dset 30000 obj 4.615 dset/s 13845.7 obj/s 51.5 Mib/s (0 errs)
+3: precreate 2.0s 10 dset 30000 obj 5.027 dset/s 15082.2 obj/s 56.1 Mib/s (0 errs)
+4: precreate 2.2s 10 dset 30000 obj 4.527 dset/s 13581.4 obj/s 50.5 Mib/s (0 errs)
+5: precreate 2.2s 10 dset 30000 obj 4.492 dset/s 13477.1 obj/s 50.1 Mib/s (0 errs)
+6: precreate 2.2s 10 dset 30000 obj 4.496 dset/s 13487.6 obj/s 50.2 Mib/s (0 errs)
+benchmark 6.4s 70000 obj 10980.6 obj/s 81.7 Mib/s (0 errs)
+0: benchmark 4.5s 10000 obj 2207.6 obj/s 16.4 Mib/s (0 errs)
+1: benchmark 6.3s 10000 obj 1581.1 obj/s 11.8 Mib/s (0 errs)
+2: benchmark 6.4s 10000 obj 1568.8 obj/s 11.7 Mib/s (0 errs)
+3: benchmark 1.8s 10000 obj 5594.4 obj/s 41.6 Mib/s (0 errs)
+4: benchmark 1.7s 10000 obj 6045.9 obj/s 45.0 Mib/s (0 errs)
+5: benchmark 1.8s 10000 obj 5701.3 obj/s 42.4 Mib/s (0 errs)
+6: benchmark 4.1s 10000 obj 2443.4 obj/s 18.2 Mib/s (0 errs)
+benchmark 7.0s 70000 obj 9937.6 obj/s 73.9 Mib/s (0 errs)
+0: benchmark 7.0s 10000 obj 1426.3 obj/s 10.6 Mib/s (0 errs)
+1: benchmark 7.0s 10000 obj 1428.0 obj/s 10.6 Mib/s (0 errs)
+2: benchmark 7.0s 10000 obj 1422.4 obj/s 10.6 Mib/s (0 errs)
+3: benchmark 3.0s 10000 obj 3366.2 obj/s 25.0 Mib/s (0 errs)
+4: benchmark 7.0s 10000 obj 1433.7 obj/s 10.7 Mib/s (0 errs)
+5: benchmark 7.0s 10000 obj 1437.1 obj/s 10.7 Mib/s (0 errs)
+6: benchmark 7.0s 10000 obj 1419.8 obj/s 10.6 Mib/s (0 errs)
+benchmark 11.3s 70000 obj 6178.9 obj/s 46.0 Mib/s (0 errs)
+0: benchmark 11.3s 10000 obj 887.6 obj/s 6.6 Mib/s (0 errs)
+1: benchmark 11.3s 10000 obj 886.4 obj/s 6.6 Mib/s (0 errs)
+2: benchmark 11.3s 10000 obj 882.7 obj/s 6.6 Mib/s (0 errs)
+3: benchmark 11.3s 10000 obj 884.8 obj/s 6.6 Mib/s (0 errs)
+4: benchmark 11.3s 10000 obj 884.8 obj/s 6.6 Mib/s (0 errs)
+5: benchmark 11.2s 10000 obj 890.3 obj/s 6.6 Mib/s (0 errs)
+6: benchmark 11.3s 10000 obj 884.7 obj/s 6.6 Mib/s (0 errs)
+benchmark 7.5s 70000 obj 9338.3 obj/s 69.5 Mib/s (0 errs)
+0: benchmark 7.5s 10000 obj 1337.1 obj/s 9.9 Mib/s (0 errs)
+1: benchmark 7.5s 10000 obj 1341.8 obj/s 10.0 Mib/s (0 errs)
+2: benchmark 7.5s 10000 obj 1340.7 obj/s 10.0 Mib/s (0 errs)
+3: benchmark 6.3s 10000 obj 1595.6 obj/s 11.9 Mib/s (0 errs)
+4: benchmark 7.5s 10000 obj 1334.0 obj/s 9.9 Mib/s (0 errs)
+5: benchmark 6.2s 10000 obj 1601.5 obj/s 11.9 Mib/s (0 errs)
+6: benchmark 7.5s 10000 obj 1341.5 obj/s 10.0 Mib/s (0 errs)
+benchmark 4.8s 70000 obj 14572.2 obj/s 108.4 Mib/s (0 errs)
+0: benchmark 4.8s 10000 obj 2081.9 obj/s 15.5 Mib/s (0 errs)
+1: benchmark 4.8s 10000 obj 2097.8 obj/s 15.6 Mib/s (0 errs)
+2: benchmark 4.8s 10000 obj 2098.6 obj/s 15.6 Mib/s (0 errs)
+3: benchmark 4.8s 10000 obj 2099.1 obj/s 15.6 Mib/s (0 errs)
+4: benchmark 4.8s 10000 obj 2098.0 obj/s 15.6 Mib/s (0 errs)
+5: benchmark 4.7s 10000 obj 2106.6 obj/s 15.7 Mib/s (0 errs)
+6: benchmark 4.8s 10000 obj 2099.1 obj/s 15.6 Mib/s (0 errs)
+cleanup 16.8s 210000 obj 70 dset 12481.1 obj/s 4.160 dset/s (0 errs)
+0: cleanup 16.8s 30000 obj 10 dset 1785.7 obj/s 0.595 dset/s (0 errs)
+1: cleanup 16.8s 30000 obj 10 dset 1783.0 obj/s 0.594 dset/s (0 errs)
+2: cleanup 16.8s 30000 obj 10 dset 1788.1 obj/s 0.596 dset/s (0 errs)
+3: cleanup 10.0s 30000 obj 10 dset 2985.4 obj/s 0.995 dset/s (0 errs)
+4: cleanup 15.5s 30000 obj 10 dset 1936.3 obj/s 0.645 dset/s (0 errs)
+5: cleanup 16.8s 30000 obj 10 dset 1788.4 obj/s 0.596 dset/s (0 errs)
+6: cleanup 15.5s 30000 obj 10 dset 1936.6 obj/s 0.646 dset/s (0 errs)
+Total runtime: 56s time: 2016-12-14 16:35:26

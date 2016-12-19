@@ -1,0 +1,75 @@
+MD-REAL-IO total objects: 560000 (version: 8049faa@master) time: 2016-12-13 09:25:48
+	offset=1 
+	interface=posix
+	obj-per-proc=1000 
+	precreate-per-set=3000 
+	data-sets=10 
+	lim-free-mem=100000 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=5 
+	start-index=0 
+	run-precreate
+	run-benchmark
+	run-cleanup
+	process-reports
+
+	root-dir=/mnt/test/out
+
+precreate 5.4s 70 dset 210000 obj 12.940 dset/s 38819.1 obj/s 144.4 Mib/s (0 errs)
+0: precreate 5.4s 10 dset 30000 obj 1.849 dset/s 5545.6 obj/s 20.6 Mib/s (0 errs)
+1: precreate 5.4s 10 dset 30000 obj 1.849 dset/s 5545.6 obj/s 20.6 Mib/s (0 errs)
+2: precreate 5.4s 10 dset 30000 obj 1.849 dset/s 5545.6 obj/s 20.6 Mib/s (0 errs)
+3: precreate 5.4s 10 dset 30000 obj 1.849 dset/s 5545.6 obj/s 20.6 Mib/s (0 errs)
+4: precreate 5.4s 10 dset 30000 obj 1.849 dset/s 5545.6 obj/s 20.6 Mib/s (0 errs)
+5: precreate 5.4s 10 dset 30000 obj 1.849 dset/s 5545.6 obj/s 20.6 Mib/s (0 errs)
+6: precreate 5.4s 10 dset 30000 obj 1.849 dset/s 5545.6 obj/s 20.6 Mib/s (0 errs)
+benchmark 11.7s 70000 obj 5996.4 obj/s 44.6 Mib/s (0 errs)
+0: benchmark 11.7s 10000 obj 856.6 obj/s 6.4 Mib/s (0 errs)
+1: benchmark 11.7s 10000 obj 856.6 obj/s 6.4 Mib/s (0 errs)
+2: benchmark 11.7s 10000 obj 856.6 obj/s 6.4 Mib/s (0 errs)
+3: benchmark 11.7s 10000 obj 856.6 obj/s 6.4 Mib/s (0 errs)
+4: benchmark 11.7s 10000 obj 856.6 obj/s 6.4 Mib/s (0 errs)
+5: benchmark 11.7s 10000 obj 856.6 obj/s 6.4 Mib/s (0 errs)
+6: benchmark 11.7s 10000 obj 856.6 obj/s 6.4 Mib/s (0 errs)
+benchmark 4.1s 70000 obj 17198.5 obj/s 127.9 Mib/s (0 errs)
+0: benchmark 4.1s 10000 obj 2457.0 obj/s 18.3 Mib/s (0 errs)
+1: benchmark 4.1s 10000 obj 2456.9 obj/s 18.3 Mib/s (0 errs)
+2: benchmark 4.1s 10000 obj 2456.9 obj/s 18.3 Mib/s (0 errs)
+3: benchmark 4.1s 10000 obj 2456.9 obj/s 18.3 Mib/s (0 errs)
+4: benchmark 4.1s 10000 obj 2456.9 obj/s 18.3 Mib/s (0 errs)
+5: benchmark 4.1s 10000 obj 2456.9 obj/s 18.3 Mib/s (0 errs)
+6: benchmark 4.1s 10000 obj 2456.9 obj/s 18.3 Mib/s (0 errs)
+benchmark 4.0s 70000 obj 17427.9 obj/s 129.6 Mib/s (0 errs)
+0: benchmark 4.0s 10000 obj 2489.8 obj/s 18.5 Mib/s (0 errs)
+1: benchmark 4.0s 10000 obj 2489.7 obj/s 18.5 Mib/s (0 errs)
+2: benchmark 4.0s 10000 obj 2489.7 obj/s 18.5 Mib/s (0 errs)
+3: benchmark 4.0s 10000 obj 2489.7 obj/s 18.5 Mib/s (0 errs)
+4: benchmark 4.0s 10000 obj 2489.7 obj/s 18.5 Mib/s (0 errs)
+5: benchmark 4.0s 10000 obj 2489.7 obj/s 18.5 Mib/s (0 errs)
+6: benchmark 4.0s 10000 obj 2489.7 obj/s 18.5 Mib/s (0 errs)
+benchmark 5.2s 70000 obj 13458.0 obj/s 100.1 Mib/s (0 errs)
+0: benchmark 5.2s 10000 obj 1922.7 obj/s 14.3 Mib/s (0 errs)
+1: benchmark 5.2s 10000 obj 1922.6 obj/s 14.3 Mib/s (0 errs)
+2: benchmark 5.2s 10000 obj 1922.6 obj/s 14.3 Mib/s (0 errs)
+3: benchmark 5.2s 10000 obj 1922.6 obj/s 14.3 Mib/s (0 errs)
+4: benchmark 5.2s 10000 obj 1922.6 obj/s 14.3 Mib/s (0 errs)
+5: benchmark 5.2s 10000 obj 1922.6 obj/s 14.3 Mib/s (0 errs)
+6: benchmark 5.2s 10000 obj 1922.6 obj/s 14.3 Mib/s (0 errs)
+benchmark 4.5s 70000 obj 15584.7 obj/s 115.9 Mib/s (0 errs)
+0: benchmark 4.5s 10000 obj 2226.5 obj/s 16.6 Mib/s (0 errs)
+1: benchmark 4.5s 10000 obj 2226.4 obj/s 16.6 Mib/s (0 errs)
+2: benchmark 4.5s 10000 obj 2226.4 obj/s 16.6 Mib/s (0 errs)
+3: benchmark 4.5s 10000 obj 2226.4 obj/s 16.6 Mib/s (0 errs)
+4: benchmark 4.5s 10000 obj 2226.4 obj/s 16.6 Mib/s (0 errs)
+5: benchmark 4.5s 10000 obj 2226.4 obj/s 16.6 Mib/s (0 errs)
+6: benchmark 4.5s 10000 obj 2226.4 obj/s 16.6 Mib/s (0 errs)
+cleanup 5.1s 210000 obj 70 dset 41413.8 obj/s 13.805 dset/s (0 errs)
+0: cleanup 5.1s 30000 obj 10 dset 5916.4 obj/s 1.972 dset/s (0 errs)
+1: cleanup 5.1s 30000 obj 10 dset 5916.3 obj/s 1.972 dset/s (0 errs)
+2: cleanup 5.1s 30000 obj 10 dset 5916.3 obj/s 1.972 dset/s (0 errs)
+3: cleanup 5.1s 30000 obj 10 dset 5916.3 obj/s 1.972 dset/s (0 errs)
+4: cleanup 5.1s 30000 obj 10 dset 5916.3 obj/s 1.972 dset/s (0 errs)
+5: cleanup 5.1s 30000 obj 10 dset 5916.3 obj/s 1.972 dset/s (0 errs)
+6: cleanup 5.1s 30000 obj 10 dset 5916.3 obj/s 1.972 dset/s (0 errs)
+Total runtime: 40s time: 2016-12-13 09:26:28

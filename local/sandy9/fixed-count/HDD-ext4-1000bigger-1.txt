@@ -1,0 +1,33 @@
+MD-REAL-IO total objects: 750000 workingset size: 1859.665 MiB (version: 8049faa@master) time: 2016-12-15 20:54:31
+	offset=1 
+	interface=posix
+	obj-per-proc=1000 
+	precreate-per-set=10000 
+	data-sets=50 
+	lim-free-mem=1000 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=5 
+	start-index=0 
+	run-precreate
+	run-benchmark
+	run-cleanup
+	process-reports
+
+	root-dir=/mnt/test/out
+
+precreate 24.2s 50 dset 500000 obj 2.067 dset/s 20666.2 obj/s 76.9 Mib/s (0 errs)
+0: precreate 24.2s 50 dset 500000 obj 2.067 dset/s 20666.2 obj/s 76.9 Mib/s (0 errs)
+benchmark 47.4s 50000 obj 1055.2 obj/s 7.8 Mib/s (0 errs)
+0: benchmark 47.4s 50000 obj 1055.2 obj/s 7.8 Mib/s (0 errs)
+benchmark 59.9s 50000 obj 834.2 obj/s 6.2 Mib/s (0 errs)
+0: benchmark 59.9s 50000 obj 834.2 obj/s 6.2 Mib/s (0 errs)
+benchmark 57.9s 50000 obj 863.9 obj/s 6.4 Mib/s (0 errs)
+0: benchmark 57.9s 50000 obj 863.9 obj/s 6.4 Mib/s (0 errs)
+benchmark 68.2s 50000 obj 733.1 obj/s 5.5 Mib/s (0 errs)
+0: benchmark 68.2s 50000 obj 733.1 obj/s 5.5 Mib/s (0 errs)
+benchmark 58.6s 50000 obj 852.7 obj/s 6.3 Mib/s (0 errs)
+0: benchmark 58.6s 50000 obj 852.7 obj/s 6.3 Mib/s (0 errs)
+cleanup 10.7s 500000 obj 50 dset 46559.2 obj/s 4.656 dset/s (0 errs)
+0: cleanup 10.7s 500000 obj 50 dset 46559.2 obj/s 4.656 dset/s (0 errs)
+Total runtime: 327s time: 2016-12-15 21:00:01

@@ -1,0 +1,46 @@
+MD-REAL-IO total objects: 1999800 workingset size: 1858.921 MiB (version: 8049faa@master) time: 2016-12-16 06:17:47
+	offset=1 
+	interface=posix
+	obj-per-proc=1000 
+	precreate-per-set=1666 
+	data-sets=50 
+	lim-free-mem=1000 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=5 
+	start-index=0 
+	run-precreate
+	run-benchmark
+	run-cleanup
+	process-reports
+
+	root-dir=/mnt/test/out
+
+precreate 38.4s 300 dset 499800 obj 7.814 dset/s 13018.3 obj/s 48.4 Mib/s (0 errs)
+0: precreate 38.3s 50 dset 83300 obj 1.306 dset/s 2175.1 obj/s 8.1 Mib/s (0 errs)
+1: precreate 38.3s 50 dset 83300 obj 1.305 dset/s 2174.4 obj/s 8.1 Mib/s (0 errs)
+2: precreate 36.9s 50 dset 83300 obj 1.355 dset/s 2256.9 obj/s 8.4 Mib/s (0 errs)
+3: precreate 36.3s 50 dset 83300 obj 1.378 dset/s 2295.3 obj/s 8.5 Mib/s (0 errs)
+4: precreate 37.1s 50 dset 83300 obj 1.346 dset/s 2242.3 obj/s 8.3 Mib/s (0 errs)
+5: precreate 38.4s 50 dset 83300 obj 1.302 dset/s 2169.8 obj/s 8.1 Mib/s (0 errs)
+benchmark 3524.3s 300000 obj 85.1 obj/s 0.6 Mib/s (0 errs)
+0: benchmark 3507.2s 50000 obj 14.3 obj/s 0.1 Mib/s (0 errs)
+1: benchmark 3524.3s 50000 obj 14.2 obj/s 0.1 Mib/s (0 errs)
+2: benchmark 3480.5s 50000 obj 14.4 obj/s 0.1 Mib/s (0 errs)
+3: benchmark 3507.2s 50000 obj 14.3 obj/s 0.1 Mib/s (0 errs)
+4: benchmark 3464.5s 50000 obj 14.4 obj/s 0.1 Mib/s (0 errs)
+5: benchmark 3523.0s 50000 obj 14.2 obj/s 0.1 Mib/s (0 errs)
+benchmark 3714.6s 300000 obj 80.8 obj/s 0.6 Mib/s (0 errs)
+0: benchmark 3703.3s 50000 obj 13.5 obj/s 0.1 Mib/s (0 errs)
+1: benchmark 3703.7s 50000 obj 13.5 obj/s 0.1 Mib/s (0 errs)
+2: benchmark 3711.0s 50000 obj 13.5 obj/s 0.1 Mib/s (0 errs)
+3: benchmark 3693.4s 50000 obj 13.5 obj/s 0.1 Mib/s (0 errs)
+4: benchmark 3695.1s 50000 obj 13.5 obj/s 0.1 Mib/s (0 errs)
+5: benchmark 3714.6s 50000 obj 13.5 obj/s 0.1 Mib/s (0 errs)
+benchmark 3455.9s 300000 obj 86.8 obj/s 0.6 Mib/s (0 errs)
+0: benchmark 3429.7s 50000 obj 14.6 obj/s 0.1 Mib/s (0 errs)
+1: benchmark 3439.0s 50000 obj 14.5 obj/s 0.1 Mib/s (0 errs)
+2: benchmark 3412.1s 50000 obj 14.7 obj/s 0.1 Mib/s (0 errs)
+3: benchmark 3455.8s 50000 obj 14.5 obj/s 0.1 Mib/s (0 errs)
+4: benchmark 3412.8s 50000 obj 14.7 obj/s 0.1 Mib/s (0 errs)
+5: benchmark 3443.8s 50000 obj 14.5 obj/s 0.1 Mib/s (0 errs)

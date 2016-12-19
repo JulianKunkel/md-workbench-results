@@ -1,0 +1,75 @@
+MD-REAL-IO total objects: 560000 (version: 8049faa@master) time: 2016-12-14 21:23:35
+	offset=1 
+	interface=posix
+	obj-per-proc=1000 
+	precreate-per-set=3000 
+	data-sets=10 
+	lim-free-mem=2500 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=5 
+	start-index=0 
+	run-precreate
+	run-benchmark
+	run-cleanup
+	process-reports
+
+	root-dir=/mnt/test/out
+
+precreate 9.5s 70 dset 210000 obj 7.354 dset/s 22063.2 obj/s 82.1 Mib/s (0 errs)
+0: precreate 6.7s 10 dset 30000 obj 1.503 dset/s 4509.1 obj/s 16.8 Mib/s (0 errs)
+1: precreate 9.5s 10 dset 30000 obj 1.052 dset/s 3155.6 obj/s 11.7 Mib/s (0 errs)
+2: precreate 9.5s 10 dset 30000 obj 1.051 dset/s 3151.9 obj/s 11.7 Mib/s (0 errs)
+3: precreate 9.5s 10 dset 30000 obj 1.052 dset/s 3156.8 obj/s 11.7 Mib/s (0 errs)
+4: precreate 9.3s 10 dset 30000 obj 1.079 dset/s 3237.8 obj/s 12.0 Mib/s (0 errs)
+5: precreate 9.0s 10 dset 30000 obj 1.105 dset/s 3315.8 obj/s 12.3 Mib/s (0 errs)
+6: precreate 9.4s 10 dset 30000 obj 1.065 dset/s 3193.7 obj/s 11.9 Mib/s (0 errs)
+benchmark 9.0s 70000 obj 7797.4 obj/s 58.0 Mib/s (0 errs)
+0: benchmark 5.9s 10000 obj 1688.2 obj/s 12.6 Mib/s (0 errs)
+1: benchmark 2.0s 10000 obj 4982.0 obj/s 37.1 Mib/s (0 errs)
+2: benchmark 9.0s 10000 obj 1113.9 obj/s 8.3 Mib/s (0 errs)
+3: benchmark 4.6s 10000 obj 2193.4 obj/s 16.3 Mib/s (0 errs)
+4: benchmark 7.2s 10000 obj 1385.1 obj/s 10.3 Mib/s (0 errs)
+5: benchmark 6.5s 10000 obj 1544.9 obj/s 11.5 Mib/s (0 errs)
+6: benchmark 6.1s 10000 obj 1629.5 obj/s 12.1 Mib/s (0 errs)
+benchmark 20.9s 70000 obj 3356.5 obj/s 25.0 Mib/s (0 errs)
+0: benchmark 20.9s 10000 obj 479.5 obj/s 3.6 Mib/s (0 errs)
+1: benchmark 20.7s 10000 obj 482.4 obj/s 3.6 Mib/s (0 errs)
+2: benchmark 20.9s 10000 obj 479.5 obj/s 3.6 Mib/s (0 errs)
+3: benchmark 18.3s 10000 obj 547.1 obj/s 4.1 Mib/s (0 errs)
+4: benchmark 20.7s 10000 obj 482.4 obj/s 3.6 Mib/s (0 errs)
+5: benchmark 20.7s 10000 obj 482.4 obj/s 3.6 Mib/s (0 errs)
+6: benchmark 20.7s 10000 obj 482.4 obj/s 3.6 Mib/s (0 errs)
+benchmark 31.6s 70000 obj 2212.8 obj/s 16.5 Mib/s (0 errs)
+0: benchmark 31.5s 10000 obj 317.5 obj/s 2.4 Mib/s (0 errs)
+1: benchmark 31.5s 10000 obj 317.4 obj/s 2.4 Mib/s (0 errs)
+2: benchmark 31.5s 10000 obj 317.5 obj/s 2.4 Mib/s (0 errs)
+3: benchmark 31.6s 10000 obj 316.1 obj/s 2.4 Mib/s (0 errs)
+4: benchmark 31.6s 10000 obj 316.6 obj/s 2.4 Mib/s (0 errs)
+5: benchmark 31.5s 10000 obj 317.5 obj/s 2.4 Mib/s (0 errs)
+6: benchmark 31.4s 10000 obj 318.5 obj/s 2.4 Mib/s (0 errs)
+benchmark 43.9s 70000 obj 1596.2 obj/s 11.9 Mib/s (0 errs)
+0: benchmark 41.1s 10000 obj 243.0 obj/s 1.8 Mib/s (0 errs)
+1: benchmark 43.7s 10000 obj 228.6 obj/s 1.7 Mib/s (0 errs)
+2: benchmark 43.7s 10000 obj 228.6 obj/s 1.7 Mib/s (0 errs)
+3: benchmark 43.9s 10000 obj 228.0 obj/s 1.7 Mib/s (0 errs)
+4: benchmark 41.3s 10000 obj 241.8 obj/s 1.8 Mib/s (0 errs)
+5: benchmark 43.6s 10000 obj 229.1 obj/s 1.7 Mib/s (0 errs)
+6: benchmark 41.0s 10000 obj 243.7 obj/s 1.8 Mib/s (0 errs)
+benchmark 35.2s 70000 obj 1987.5 obj/s 14.8 Mib/s (0 errs)
+0: benchmark 35.2s 10000 obj 283.9 obj/s 2.1 Mib/s (0 errs)
+1: benchmark 35.0s 10000 obj 285.5 obj/s 2.1 Mib/s (0 errs)
+2: benchmark 35.0s 10000 obj 285.5 obj/s 2.1 Mib/s (0 errs)
+3: benchmark 35.1s 10000 obj 284.7 obj/s 2.1 Mib/s (0 errs)
+4: benchmark 35.1s 10000 obj 284.7 obj/s 2.1 Mib/s (0 errs)
+5: benchmark 35.0s 10000 obj 285.5 obj/s 2.1 Mib/s (0 errs)
+6: benchmark 35.0s 10000 obj 285.4 obj/s 2.1 Mib/s (0 errs)
+cleanup 33.1s 210000 obj 70 dset 6335.2 obj/s 2.112 dset/s (0 errs)
+0: cleanup 33.1s 30000 obj 10 dset 905.0 obj/s 0.302 dset/s (0 errs)
+1: cleanup 33.1s 30000 obj 10 dset 905.1 obj/s 0.302 dset/s (0 errs)
+2: cleanup 33.1s 30000 obj 10 dset 905.2 obj/s 0.302 dset/s (0 errs)
+3: cleanup 33.1s 30000 obj 10 dset 905.1 obj/s 0.302 dset/s (0 errs)
+4: cleanup 29.2s 30000 obj 10 dset 1026.0 obj/s 0.342 dset/s (0 errs)
+5: cleanup 24.1s 30000 obj 10 dset 1246.2 obj/s 0.415 dset/s (0 errs)
+6: cleanup 33.1s 30000 obj 10 dset 905.2 obj/s 0.302 dset/s (0 errs)
+Total runtime: 183s time: 2016-12-14 21:26:40

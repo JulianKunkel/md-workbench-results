@@ -1,0 +1,68 @@
+MD-REAL-IO total objects: 480000 (version: 8049faa@master) time: 2016-12-14 16:47:19
+	offset=1 
+	interface=posix
+	obj-per-proc=1000 
+	precreate-per-set=3000 
+	data-sets=10 
+	lim-free-mem=2500 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=5 
+	start-index=0 
+	run-precreate
+	run-benchmark
+	run-cleanup
+	process-reports
+
+	root-dir=/mnt/test/out
+
+precreate 4.8s 60 dset 180000 obj 12.503 dset/s 37508.4 obj/s 139.5 Mib/s (0 errs)
+0: precreate 4.5s 10 dset 30000 obj 2.211 dset/s 6633.0 obj/s 24.7 Mib/s (0 errs)
+1: precreate 4.5s 10 dset 30000 obj 2.238 dset/s 6714.2 obj/s 25.0 Mib/s (0 errs)
+2: precreate 4.8s 10 dset 30000 obj 2.087 dset/s 6261.3 obj/s 23.3 Mib/s (0 errs)
+3: precreate 4.8s 10 dset 30000 obj 2.084 dset/s 6251.4 obj/s 23.3 Mib/s (0 errs)
+4: precreate 4.4s 10 dset 30000 obj 2.249 dset/s 6747.4 obj/s 25.1 Mib/s (0 errs)
+5: precreate 4.8s 10 dset 30000 obj 2.100 dset/s 6301.3 obj/s 23.4 Mib/s (0 errs)
+benchmark 5.7s 60000 obj 10553.4 obj/s 78.5 Mib/s (0 errs)
+0: benchmark 5.6s 10000 obj 1794.8 obj/s 13.4 Mib/s (0 errs)
+1: benchmark 5.0s 10000 obj 1988.4 obj/s 14.8 Mib/s (0 errs)
+2: benchmark 5.6s 10000 obj 1783.1 obj/s 13.3 Mib/s (0 errs)
+3: benchmark 4.9s 10000 obj 2029.1 obj/s 15.1 Mib/s (0 errs)
+4: benchmark 5.7s 10000 obj 1758.9 obj/s 13.1 Mib/s (0 errs)
+5: benchmark 5.5s 10000 obj 1806.8 obj/s 13.4 Mib/s (0 errs)
+benchmark 8.8s 60000 obj 6853.2 obj/s 51.0 Mib/s (0 errs)
+0: benchmark 8.7s 10000 obj 1144.1 obj/s 8.5 Mib/s (0 errs)
+1: benchmark 8.8s 10000 obj 1142.2 obj/s 8.5 Mib/s (0 errs)
+2: benchmark 8.6s 10000 obj 1169.1 obj/s 8.7 Mib/s (0 errs)
+3: benchmark 8.5s 10000 obj 1172.0 obj/s 8.7 Mib/s (0 errs)
+4: benchmark 8.7s 10000 obj 1145.5 obj/s 8.5 Mib/s (0 errs)
+5: benchmark 8.5s 10000 obj 1177.1 obj/s 8.8 Mib/s (0 errs)
+benchmark 10.2s 60000 obj 5870.4 obj/s 43.7 Mib/s (0 errs)
+0: benchmark 10.1s 10000 obj 993.6 obj/s 7.4 Mib/s (0 errs)
+1: benchmark 10.2s 10000 obj 982.3 obj/s 7.3 Mib/s (0 errs)
+2: benchmark 10.2s 10000 obj 978.4 obj/s 7.3 Mib/s (0 errs)
+3: benchmark 10.2s 10000 obj 982.6 obj/s 7.3 Mib/s (0 errs)
+4: benchmark 10.2s 10000 obj 981.4 obj/s 7.3 Mib/s (0 errs)
+5: benchmark 10.0s 10000 obj 998.9 obj/s 7.4 Mib/s (0 errs)
+benchmark 8.9s 60000 obj 6777.2 obj/s 50.4 Mib/s (0 errs)
+0: benchmark 8.8s 10000 obj 1131.8 obj/s 8.4 Mib/s (0 errs)
+1: benchmark 8.9s 10000 obj 1129.9 obj/s 8.4 Mib/s (0 errs)
+2: benchmark 8.8s 10000 obj 1134.2 obj/s 8.4 Mib/s (0 errs)
+3: benchmark 8.9s 10000 obj 1129.5 obj/s 8.4 Mib/s (0 errs)
+4: benchmark 8.8s 10000 obj 1135.5 obj/s 8.4 Mib/s (0 errs)
+5: benchmark 8.8s 10000 obj 1141.5 obj/s 8.5 Mib/s (0 errs)
+benchmark 7.9s 60000 obj 7607.1 obj/s 56.6 Mib/s (0 errs)
+0: benchmark 7.9s 10000 obj 1269.3 obj/s 9.4 Mib/s (0 errs)
+1: benchmark 7.9s 10000 obj 1267.9 obj/s 9.4 Mib/s (0 errs)
+2: benchmark 7.8s 10000 obj 1274.8 obj/s 9.5 Mib/s (0 errs)
+3: benchmark 7.9s 10000 obj 1269.7 obj/s 9.4 Mib/s (0 errs)
+4: benchmark 7.8s 10000 obj 1278.1 obj/s 9.5 Mib/s (0 errs)
+5: benchmark 7.8s 10000 obj 1280.9 obj/s 9.5 Mib/s (0 errs)
+cleanup 24.2s 180000 obj 60 dset 7434.9 obj/s 2.478 dset/s (0 errs)
+0: cleanup 21.3s 30000 obj 10 dset 1406.4 obj/s 0.469 dset/s (0 errs)
+1: cleanup 15.7s 30000 obj 10 dset 1906.1 obj/s 0.635 dset/s (0 errs)
+2: cleanup 21.4s 30000 obj 10 dset 1400.9 obj/s 0.467 dset/s (0 errs)
+3: cleanup 24.2s 30000 obj 10 dset 1239.2 obj/s 0.413 dset/s (0 errs)
+4: cleanup 15.8s 30000 obj 10 dset 1899.9 obj/s 0.633 dset/s (0 errs)
+5: cleanup 24.2s 30000 obj 10 dset 1242.0 obj/s 0.414 dset/s (0 errs)
+Total runtime: 70s time: 2016-12-14 16:48:30
