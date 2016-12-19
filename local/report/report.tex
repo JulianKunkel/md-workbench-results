@@ -211,7 +211,7 @@ For EXT4, this might be caused from the fact that with one process, the director
 Since metadata and data is placed together, it could be pre-fetched and available on the HDD read cache. 
 With two processes the number increases to 100 making it impossible to utilize the cache.
 
-\begin{figure}
+\begin{figure}[tb]
 \centering
 \subfloat[1 process]{\includegraphics[width=8cm]{50tp-fs}}
 \subfloat[2 processes]{\includegraphics[width=8cm]{50tp-2proc-fs}}
@@ -229,10 +229,23 @@ With two processes the number increases to 100 making it impossible to utilize t
 The results for our settings where the number of objects increases with each process are given in the following.
 Since the working set is 110 MiB times the number of processes, this workload can be cached much better and allows to investigate caching behavior.
 
-\Cref{fig:variable-count-u}
-\Cref{fig:variable-count-1000}
+The results for unlimited memory is shown in \Cref{fig:variable-count-u}, results with memory limited to 1000 MB are given in  \Cref{fig:variable-count-1000}.
 
-\paragraph{Results:}
+\paragraph{Observations for unlimited memory:}
+\begin{itemize}
+\item SSD / all phases: performance of EXT4 and XFS increases up to 5 processes to 100k objs/s then decreases slightly. BTRFS performance is lower.
+\item HDD / all phases, performance up to 8 threads behaves similarly (Note that the processor has 8 physical cores). Performance of the SSD and HDD does not differ much except for XFS benchmark phase and EXT4 cleanup phase.
+\item With the exception of XFS, the benchmark phase leads to similar results on HDD and SSD. With more than 10,000 ops/s, this is beyond the capabilities of the hardware.
+\end{itemize}
+
+\paragraph{Observations for 1000 MB memory:}
+
+\begin{itemize}
+\item Precreate is not affected much by the reduced cache and leads to similar performance regardless of file system,  hardware technology and processor count. 
+\item Similarly, cleanup is not affected much with the increase of the working set size, with the exception of BTRFS.
+\item BTRFS and XFS yield up two orders of magnitude worse results on the cleanup phase than all EXT4.
+\item With increasing number of processes and, thus, working set size, the benchmarking phase on HDD leads to much worse performance on HDD than on SSD for all file systems. This cannot be seen for any other phase.
+\end{itemize}
 
 \begin{figure}
 \centering
