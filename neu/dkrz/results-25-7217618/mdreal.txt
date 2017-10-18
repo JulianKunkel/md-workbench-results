@@ -1,0 +1,24 @@
+MD-REAL-IO total objects: 2000000 workingset size: 4649.162 MiB (version: 5044ecc@master) time: 2017-07-09 00:29:14
+	offset=1 
+	interface=posix
+	obj-per-proc=1000 
+	latency=/home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/results-25-7217618/mdreal
+	precreate-per-set=5000 
+	data-sets=1 
+	lim-free-mem=0 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=3 
+	latency-all
+	run-precreate
+	run-benchmark
+	run-cleanup
+
+	root-dir=/mnt/lustre02/work/k20200/k202079/mdreal/data/mdreal
+
+precreate 47.3s 26422.9 iops/s 250 dset 1250000 obj 5.284 dset/s 26417.6 obj/s 98.3 Mib/s (0 errs)
+benchmark 31.8s 31400.4 iops/s 250000 obj 7850.1 obj/s 58.4 Mib/s (0 errs)
+benchmark 28.8s 34776.2 iops/s 250000 obj 8694.0 obj/s 64.7 Mib/s (0 errs)
+benchmark 32.1s 31188.0 iops/s 250000 obj 7797.0 obj/s 58.0 Mib/s (0 errs)
+cleanup 61.2s 20429.0 iops/s 1250000 obj 250 dset 20424.9 obj/s 4.085 dset/s (0 errs)
+Total runtime: 202s time: 2017-07-09 00:32:36
