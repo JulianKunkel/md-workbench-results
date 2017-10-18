@@ -1,0 +1,24 @@
+MD-REAL-IO total objects: 130000 workingset size: 371.933 MiB (version: 1383d95@master) time: 2017-07-09 16:24:33
+	offset=1 
+	interface=posix
+	obj-per-proc=2500 
+	latency=/home/kunkel/wr-git/md-real-io-results/local2/res/intel-stick-1GB-4/mdreal
+	precreate-per-set=25000 
+	data-sets=1 
+	lim-free-mem=1000 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=3 
+	latency-all
+	run-precreate
+	run-benchmark
+	run-cleanup
+
+	root-dir=/media/kunkel/intel-stick//mdreal
+
+precreate 262.8s 380.5 iops/s 4 dset 100000 obj 0.015 dset/s 380.5 obj/s 1.4 Mib/s (0 errs)
+benchmark 199.8s 200.2 iops/s 10000 obj 50.1 obj/s 0.4 Mib/s (0 errs)
+benchmark 99.0s 404.0 iops/s 10000 obj 101.0 obj/s 0.8 Mib/s (0 errs)
+benchmark 302.2s 132.4 iops/s 10000 obj 33.1 obj/s 0.2 Mib/s (0 errs)
+cleanup 227.5s 439.6 iops/s 100000 obj 4 dset 439.5 obj/s 0.018 dset/s (0 errs)
+Total runtime: 1091s time: 2017-07-09 16:42:45

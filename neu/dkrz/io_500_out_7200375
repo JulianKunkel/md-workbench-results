@@ -1,0 +1,483 @@
+Running 
+
+-t 2048k -b 2048000k -s 1
+1
+1
+1
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:33080.72 MB/s time: 10s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:24078.902 time:3s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:16.06 MB/s time: 4s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:15812.645 time:3s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:25682.54 MB/s time: 11s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:43009.680 time:3s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:57.80 MB/s time: 4s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:54791.692 time:3s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:37 time:0s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:15403.812 time:3s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:19627.066 time:3s
+
+IO-500 bw score: 942.37 MB/s
+IO-500 md score: 10005.3 IOPS
+
+IO-500 score:  9428694.56
+Running 
+
+-t 4096k -b 4096000k -s 10
+1
+1
+1
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:36773.08 MB/s time: 117s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:23535.739 time:3s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:16.82 MB/s time: 3s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:25013.740 time:3s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:30214.15 MB/s time: 142s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:105703.226 time:3s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:71.10 MB/s time: 3s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:57637.818 time:4s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:49 time:0s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:25289.744 time:3s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:14168.510 time:3s
+
+IO-500 bw score: 1073.64 MB/s
+IO-500 md score: 13006.7 IOPS
+
+IO-500 score:  13964513.38
+ior_easy_params=-t 4096k -b 4096000k -s 10
+Running 
+
+-t 2048k -b 2048k -s 1
+33
+1
+1
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:855.02 MB/s time: 5s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:10836.595 time:4s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:33.80 MB/s time: 8s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:18182.348 time:3s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:1790.77 MB/s time: 4s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:34518.180 time:4s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:408.00 MB/s time: 5s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:63781.995 time:3s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:48 time:0s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:24089.966 time:3s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:24443.755 time:3s
+
+IO-500 bw score: 381.196 MB/s
+IO-500 md score: 10295.5 IOPS
+
+IO-500 score:  3924603.418
+Running 
+
+-t 2048k -b 2048k -s 1
+660
+1
+1
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:691.82 MB/s time: 3s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:24055.426 time:4s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:95.08 MB/s time: 36s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:27747.446 time:5s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:1987.14 MB/s time: 3s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:94530.178 time:3s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:776.35 MB/s time: 39s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:57804.631 time:3s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:50 time:0s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:21079.023 time:3s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:21316.853 time:3s
+
+IO-500 bw score: 564.407 MB/s
+IO-500 md score: 13505.2 IOPS
+
+IO-500 score:  7622429.416
+Running 
+
+-t 2048k -b 2048k -s 1
+1833
+1
+1
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:760.03 MB/s time: 4s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:27579.590 time:3s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:120.47 MB/s time: 75s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:25812.690 time:4s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:2282.69 MB/s time: 3s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:58238.045 time:4s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:801.25 MB/s time: 99s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:53052.163 time:4s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:50 time:0s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:25283.646 time:4s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:20190.161 time:3s
+
+IO-500 bw score: 639.707 MB/s
+IO-500 md score: 12795 IOPS
+
+IO-500 score:  8185051.065
+Running 
+
+-t 2048k -b 2048k -s 1
+3666
+1
+1
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:1269.85 MB/s time: 4s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:27026.896 time:4s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:128.08 MB/s time: 138s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:22202.657 time:4s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:2046.00 MB/s time: 3s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:91658.741 time:3s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:781.64 MB/s time: 190s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:52858.273 time:3s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:50 time:0s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:7273.317 time:3s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:20942.201 time:4s
+
+IO-500 bw score: 714.145 MB/s
+IO-500 md score: 11202.5 IOPS
+
+IO-500 score:  8000209.362
+ior_hard_writes_per_proc=3666
+Running 
+
+-t 2048k -b 2048k -s 1
+1
+1
+33
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:586.82 MB/s time: 5s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:33229.308 time:5s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:20.65 MB/s time: 4s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:7021.518 time:3s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:2474.34 MB/s time: 5s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:120791.036 time:4s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:125.72 MB/s time: 4s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:58653.391 time:3s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:299 time:0s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:32365.954 time:3s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:20349.833 time:3s
+
+IO-500 bw score: 247.783 MB/s
+IO-500 md score: 16447 IOPS
+
+IO-500 score:  4075287.001
+Running 
+
+-t 2048k -b 2048k -s 1
+1
+1
+1100
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:361.15 MB/s time: 4s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:22704.924 time:12s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:14.48 MB/s time: 4s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:8382.908 time:4s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:2717.22 MB/s time: 3s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:151338.604 time:6s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:54.02 MB/s time: 3s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:63607.886 time:3s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:1098 time:1s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:53089.700 time:24s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:41323.192 time:4s
+
+IO-500 bw score: 166.45 MB/s
+IO-500 md score: 23868.5 IOPS
+
+IO-500 score:  3972911.82
+Running 
+
+-t 2048k -b 2048k -s 1
+1
+1
+18333
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:312.21 MB/s time: 4s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:21055.588 time:219s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:14.00 MB/s time: 4s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:2538.710 time:4s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:2245.85 MB/s time: 3s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:129473.083 time:30s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:26.64 MB/s time: 4s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:2467.122 time:3s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:806 time:23s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:17245.295 time:202s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:31427.424 time:3s
+
+IO-500 bw score: 127.166 MB/s
+IO-500 md score: 9589.79 IOPS
+
+IO-500 score:  1219495.235
+Running 
+
+-t 2048k -b 2048k -s 1
+1
+1
+61110
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:294.34 MB/s time: 4s
+[Starting] md-easy-create
+1/md-easy-create IOPs:18252.285 time:761s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:12.33 MB/s time: 4s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:2717.609 time:3s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:1574.59 MB/s time: 3s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:143224.997 time:88s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:36.24 MB/s time: 4s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:889.117 time:3s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:380 time:161s
+[Starting] md-easy-delete
+6/md-easy-delete IOPs:10832.530 time:2761s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:39125.970 time:3s
+
+IO-500 bw score: 119.962 MB/s
+IO-500 md score: 7214.54 IOPS
+
+IO-500 score:  865470.647
+Running 
+
+-t 2048k -b 2048k -s 1
+1
+1
+122220
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:778.56 MB/s time: 4s
+[Starting] md-easy-create
+1/md-easy-create IOPs:15545.188 time:1661s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:11.68 MB/s time: 4s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:11148.244 time:3s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:1541.80 MB/s time: 4s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:132051.444 time:185s
+[Starting] ior-hard-read
+[Warning]: the runtime is below 5 minutes
+4/ior-hard-read BW:50.00 MB/s time: 3s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:1702.621 time:3s
+[Starting] find
+5/find IOPs:127 time:962s
+[Starting] md-easy-delete

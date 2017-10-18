@@ -1,0 +1,23 @@
+-- started at 06/02/2017 11:58:05 --
+
+mdtest-1.9.3 was launched with 12 total task(s) on 2 node(s)
+Command line used: ./mdtest.exe -n 10000 -u -L -s 6 -b 1 -e 3900 -i 1 -w 3900 -d /home/kunkel/metadata/testdir
+Path: /gpfs/mira-home/kunkel/metadata
+FS: 1025.4 TiB   Used FS: 3.5%   Inodes: 715.3 Mi   Used Inodes: 13.2%
+
+12 tasks, 120000 files/directories
+
+SUMMARY: (of 1 iterations)
+   Operation                      Max            Min           Mean        Std Dev
+   ---------                      ---            ---           ----        -------
+   Directory creation:       5632.435       5632.435       5632.435          0.000
+   Directory stat    :      27427.582      27427.582      27427.582          0.000
+   Directory removal :      16937.335      16937.335      16937.335          0.000
+   File creation     :      12500.918      12500.918      12500.918          0.000
+   File stat         :      28235.394      28235.394      28235.394          0.000
+   File read         :       1078.316       1078.316       1078.316          0.000
+   File removal      :      18008.751      18008.751      18008.751          0.000
+   Tree creation     :         92.858         92.858         92.858          0.000
+   Tree removal      :         44.138         44.138         44.138          0.000
+
+-- finished at 06/02/2017 12:00:50 --

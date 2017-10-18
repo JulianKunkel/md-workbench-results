@@ -1,0 +1,8 @@
+-- started at 06/02/2017 08:55:34 --
+
+mdtest-1.9.3 was launched with 12 total task(s) on 2 node(s)
+Command line used: ./mdtest.exe -n 100000 -i 1 -w 3900 -d /home/kunkel/metadata/testdir
+Path: /gpfs/mira-home/kunkel/metadata
+FS: 1025.4 TiB   Used FS: 3.5%   Inodes: 715.3 Mi   Used Inodes: 13.2%
+
+12 tasks, 1200000 files/directories

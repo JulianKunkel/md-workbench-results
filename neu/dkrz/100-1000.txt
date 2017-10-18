@@ -1,0 +1,73 @@
+[Starting] ior-easy-write
+io_500_core.sh: Zeile 50: /mnt/lustre02/work/k20200/k202079/io500/results/ior_easy: Datei oder Verzeichnis nicht gefunden
+[Warning]: the runtime is below 5 minutes
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/ior_easy: Datei oder Verzeichnis nicht gefunden
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/ior_easy: Datei oder Verzeichnis nicht gefunden
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/ior-easy-results.txt: Datei oder Verzeichnis nicht gefunden
+1/ior-easy-write BW: MB/s time: s
+[Starting] md-easy-create
+io_500_core.sh: Zeile 60: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_easy: Datei oder Verzeichnis nicht gefunden
+[Warning]: the runtime is below 5 minutes
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_easy: Datei oder Verzeichnis nicht gefunden
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/mdt-easy-results.txt: Datei oder Verzeichnis nicht gefunden
+1/md-easy-create IOPs: time:0s
+[Starting] ior-hard-write
+io_500_core.sh: Zeile 68: /mnt/lustre02/work/k20200/k202079/io500/results/ior_hard: Datei oder Verzeichnis nicht gefunden
+[Warning]: the runtime is below 5 minutes
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/ior_hard: Datei oder Verzeichnis nicht gefunden
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/ior_hard: Datei oder Verzeichnis nicht gefunden
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/ior-hard-results.txt: Datei oder Verzeichnis nicht gefunden
+2/ior-hard-write BW: MB/s time: s
+[Starting] md-hard-create
+io_500_core.sh: Zeile 79: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_hard: Datei oder Verzeichnis nicht gefunden
+[Warning]: the runtime is below 5 minutes
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_hard: Datei oder Verzeichnis nicht gefunden
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/mdt-hard-results.txt: Datei oder Verzeichnis nicht gefunden
+2/md-hard-create IOPs: time:0s
+[Starting] ior-easy-read
+io_500_core.sh: Zeile 89: /mnt/lustre02/work/k20200/k202079/io500/results/ior_easy: Datei oder Verzeichnis nicht gefunden
+[Warning]: the runtime is below 5 minutes
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/ior_easy: Datei oder Verzeichnis nicht gefunden
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/ior_easy: Datei oder Verzeichnis nicht gefunden
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/mdt-easy-results.txt: Datei oder Verzeichnis nicht gefunden
+3/ior-easy-read BW: MB/s time: s
+[Starting] md-easy-stat
+io_500_core.sh: Zeile 100: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_easy: Datei oder Verzeichnis nicht gefunden
+[Warning]: the runtime is below 5 minutes
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_easy: Datei oder Verzeichnis nicht gefunden
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/mdt-easy-results.txt: Datei oder Verzeichnis nicht gefunden
+3/md-easy-stat IOPs: time:0s
+[Starting] md-hard-read
+io_500_core.sh: Zeile 108: /mnt/lustre02/work/k20200/k202079/io500/results/ior_hard: Datei oder Verzeichnis nicht gefunden
+[Warning]: the runtime is below 5 minutes
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/ior_hard: Datei oder Verzeichnis nicht gefunden
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/ior_hard: Datei oder Verzeichnis nicht gefunden
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/ior-hard-results.txt: Datei oder Verzeichnis nicht gefunden
+4/md-hard-read BW: MB/s time: s
+[Starting] md-hard-stat
+io_500_core.sh: Zeile 118: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_hard: Datei oder Verzeichnis nicht gefunden
+[Warning]: the runtime is below 5 minutes
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_hard: Datei oder Verzeichnis nicht gefunden
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/mdt-hard-results.txt: Datei oder Verzeichnis nicht gefunden
+4/md-hard-stat IOPs: time:0s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/find-results.txt: Datei oder Verzeichnis nicht gefunden
+5/find IOPs:0 time:0s
+[Starting] md-easy-delete
+io_500_core.sh: Zeile 134: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_easy: Datei oder Verzeichnis nicht gefunden
+[Warning]: the runtime is below 5 minutes
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_easy: Datei oder Verzeichnis nicht gefunden
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/mdt-easy-results.txt: Datei oder Verzeichnis nicht gefunden
+6/md-easy-delete IOPs: time:0s
+[Starting] md-hard-delete
+io_500_core.sh: Zeile 142: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_hard: Datei oder Verzeichnis nicht gefunden
+[Warning]: the runtime is below 5 minutes
+grep: /mnt/lustre02/work/k20200/k202079/io500/results/mdt_hard: Datei oder Verzeichnis nicht gefunden
+tee: /mnt/lustre02/work/k20200/k202079/io500/results/mdt-hard-results.txt: Datei oder Verzeichnis nicht gefunden
+7/md-hard-delete IOPs: time:0s
+
+IO-500 bw score: 0 MB/s
+IO-500 md score: 0 IOPS
+
+IO-500 score:  0

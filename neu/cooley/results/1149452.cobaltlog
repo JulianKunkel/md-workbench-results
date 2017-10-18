@@ -1,0 +1,24 @@
+Jobid: 1149452
+qsub -A RAN -n 10 -t 4:00 --interactive
+Fri Jul 14 07:31:23 2017 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/kunkel/metadata
+jobid 1149452 submitted from terminal /dev/pts/6
+Fri Jul 14 07:31:41 2017 +0000 (UTC) 
+Fri Jul 14 07:31:41 2017 +0000 (UTC) Command: '/usr/bin/ssh' 'cc066.cooley' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.1149452' '--jobid' '1149452' '--cwd' '/gpfs/mira-home/kunkel/metadata' '--env' 'COBALT_JOBID=1149452' '/bin/sleep' '14400'
+Fri Jul 14 07:31:41 2017 +0000 (UTC) 
+Fri Jul 14 07:31:41 2017 +0000 (UTC) Environment:
+Fri Jul 14 07:31:41 2017 +0000 (UTC) SHELL=/bin/bash
+Fri Jul 14 07:31:41 2017 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpcdjC20
+Fri Jul 14 07:31:41 2017 +0000 (UTC) COBALT_PARTNAME=cc066.cooley
+Fri Jul 14 07:31:41 2017 +0000 (UTC) COBALT_JOBID=1149452
+Fri Jul 14 07:31:41 2017 +0000 (UTC) COBALT_STARTTIME=1500017488
+Fri Jul 14 07:31:41 2017 +0000 (UTC) LOGNAME=kunkel
+Fri Jul 14 07:31:41 2017 +0000 (UTC) USER=kunkel
+Fri Jul 14 07:31:41 2017 +0000 (UTC) COBALT_ENDTIME=1500031888
+Fri Jul 14 07:31:41 2017 +0000 (UTC) COBALT_PARTSIZE=10
+Fri Jul 14 07:31:41 2017 +0000 (UTC) HOME=/home/kunkel
+Fri Jul 14 07:31:41 2017 +0000 (UTC) COBALT_JOBSIZE=10
+Fri Jul 14 07:31:41 2017 +0000 (UTC) 
+Fri Jul 14 07:31:41 2017 +0000 (UTC) Info: stdin received from /dev/null
+Fri Jul 14 07:31:41 2017 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/kunkel/metadata/1149452.output
+Fri Jul 14 07:31:41 2017 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/kunkel/metadata/1149452.error
+Fri Jul 14 07:31:41 2017 +0000 (UTC) 

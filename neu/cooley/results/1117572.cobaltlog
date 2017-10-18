@@ -1,0 +1,26 @@
+Jobid: 1117572
+qsub -A RAN -n 2 -t 2:00 --interactive
+Fri Jun 02 07:28:26 2017 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/kunkel/metadata
+jobid 1117572 submitted from terminal /dev/pts/80
+Fri Jun 02 07:28:52 2017 +0000 (UTC) 
+Fri Jun 02 07:28:52 2017 +0000 (UTC) Command: '/usr/bin/ssh' 'cc122.cooley' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.1117572' '--jobid' '1117572' '--cwd' '/gpfs/mira-home/kunkel/metadata' '--env' 'COBALT_JOBID=1117572' '/bin/sleep' '7200'
+Fri Jun 02 07:28:52 2017 +0000 (UTC) 
+Fri Jun 02 07:28:52 2017 +0000 (UTC) Environment:
+Fri Jun 02 07:28:52 2017 +0000 (UTC) SHELL=/bin/bash
+Fri Jun 02 07:28:52 2017 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpKZbLCz
+Fri Jun 02 07:28:52 2017 +0000 (UTC) COBALT_PARTNAME=cc122.cooley
+Fri Jun 02 07:28:52 2017 +0000 (UTC) COBALT_JOBID=1117572
+Fri Jun 02 07:28:52 2017 +0000 (UTC) COBALT_STARTTIME=1496388513
+Fri Jun 02 07:28:52 2017 +0000 (UTC) LOGNAME=kunkel
+Fri Jun 02 07:28:52 2017 +0000 (UTC) USER=kunkel
+Fri Jun 02 07:28:52 2017 +0000 (UTC) COBALT_ENDTIME=1496395713
+Fri Jun 02 07:28:52 2017 +0000 (UTC) COBALT_PARTSIZE=2
+Fri Jun 02 07:28:52 2017 +0000 (UTC) HOME=/home/kunkel
+Fri Jun 02 07:28:52 2017 +0000 (UTC) COBALT_JOBSIZE=2
+Fri Jun 02 07:28:52 2017 +0000 (UTC) 
+Fri Jun 02 07:28:52 2017 +0000 (UTC) Info: stdin received from /dev/null
+Fri Jun 02 07:28:52 2017 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/kunkel/metadata/1117572.output
+Fri Jun 02 07:28:52 2017 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/kunkel/metadata/1117572.error
+Fri Jun 02 07:28:52 2017 +0000 (UTC) 
+Fri Jun 02 09:28:43 2017 +0000 (UTC) Info: maximum execution time exceeded; initiating job termination
+Fri Jun 02 09:28:55 2017 +0000 (UTC) Info: job is in the process of exiting; user delete request ignored

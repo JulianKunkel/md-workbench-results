@@ -1,0 +1,2 @@
+/var/log/slurm/spool_slurmd//job7200320/slurm_script: Zeile 14: 10(x10) * 10: Syntaxfehler im Ausdruck. (Fehlerverursachendes Zeichen ist \"(x10) * 10\").
+slurmstepd: error: *** JOB 7200320 ON m20668 CANCELLED AT 2017-07-07T23:17:07 ***

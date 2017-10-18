@@ -1,0 +1,23 @@
+MD-REAL-IO total objects: 372000 workingset size: 1338.959 MiB (version: 41727a3@master) time: 2017-06-02 08:52:39
+	offset=1 
+	interface=posix
+	obj-per-proc=1000 
+	precreate-per-set=90000 
+	data-sets=1 
+	lim-free-mem=0 
+	lim-free-mem-phase=0 
+	object-size=3900 
+	iterations=3 
+	start-index=0 
+	run-precreate
+	run-benchmark
+	run-cleanup
+
+	root-dir=/home/kunkel/metadata/testdir
+
+precreate 95.5s 4 dset 360000 obj 0.042 dset/s 3768.6 obj/s 14.0 Mib/s (0 errs)
+benchmark 10.3s 4000 obj 389.3 obj/s 2.9 Mib/s (0 errs)
+benchmark 9.1s 4000 obj 440.8 obj/s 3.3 Mib/s (0 errs)
+benchmark 8.8s 4000 obj 455.2 obj/s 3.4 Mib/s (0 errs)
+cleanup 50.2s 360000 obj 4 dset 7164.6 obj/s 0.080 dset/s (0 errs)
+Total runtime: 174s time: 2017-06-02 08:55:33

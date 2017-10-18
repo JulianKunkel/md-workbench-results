@@ -1,0 +1,41 @@
+bash startup.sh
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:20842.47 MB/s time: 1s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:9429.606 time:19s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:32.67 MB/s time: 1s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:10156.529 time:17s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:28949.45 MB/s time: 1s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:56642.520 time:5s
+[Starting] md-hard-read
+[Warning]: the runtime is below 5 minutes
+4/md-hard-read BW:384.04 MB/s time: 1s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:47463.737 time:5s
+[Starting] find
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:12 time:155s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:12364.296 time:14s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:6783.193 time:18s
+
+IO-500 bw score: 1658.74 MB/s
+IO-500 md score: 5934.19 IOPS
+
+IO-500 score:  9843278.32
+

@@ -1,0 +1,25 @@
++ maxTasks=1
++ mpirun='srun -N 1 -n 1'
++ workdir=/mnt/lustre02/work/k20200/k202079/io500-2/data
++ output_dir=/mnt/lustre02/work/k20200/k202079/io500-2/results
++ mkdir -p /mnt/lustre02/work/k20200/k202079/io500-2/data/ior_easy
++ lfs setstripe --stripe-count 2 /mnt/lustre02/work/k20200/k202079/io500-2/data/ior_easy
++ mkdir -p /mnt/lustre02/work/k20200/k202079/io500-2/data/ior_hard
++ lfs setstripe --stripe-count 100 /mnt/lustre02/work/k20200/k202079/io500-2/data/ior_hard
++ find_cmd=/home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500-find.sh
++ ior_cmd=/home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/ior
++ mdtest_cmd=/home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/mdtest
++ subtree_to_scan_config=/home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/subtree.cfg
++ ior_easy_params='-t 2048k -b 2048k'
++ ior_hard_writes_per_proc=1
++ mdtest_hard_files_per_proc=1
++ mdtest_easy_files_per_proc=1
++ rm output
++ createSubtree 1
++ count=1
+++ seq 1
++ for I in '$(seq $count)'
++ echo mdtest_tree.0.0
++ run
++ echo 'Running '
+Running 

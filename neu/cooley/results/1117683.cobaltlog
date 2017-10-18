@@ -1,0 +1,25 @@
+Jobid: 1117683
+qsub -A RAN -n 2 -t 2:00 --interactive
+Fri Jun 02 14:30:04 2017 +0000 (UTC) submitted with cwd set to: /gpfs/mira-home/kunkel/metadata
+jobid 1117683 submitted from terminal /dev/pts/80
+Fri Jun 02 14:30:20 2017 +0000 (UTC) 
+Fri Jun 02 14:30:20 2017 +0000 (UTC) Command: '/usr/bin/ssh' 'cc018.cooley' '/usr/bin/cobalt-launcher.py' '--nf' '/var/tmp/cobalt.1117683' '--jobid' '1117683' '--cwd' '/gpfs/mira-home/kunkel/metadata' '--env' 'COBALT_JOBID=1117683' '/bin/sleep' '7200'
+Fri Jun 02 14:30:20 2017 +0000 (UTC) 
+Fri Jun 02 14:30:20 2017 +0000 (UTC) Environment:
+Fri Jun 02 14:30:20 2017 +0000 (UTC) SHELL=/bin/bash
+Fri Jun 02 14:30:20 2017 +0000 (UTC) COBALT_NODEFILE=/tmp/tmpOy0RLy
+Fri Jun 02 14:30:20 2017 +0000 (UTC) COBALT_PARTNAME=cc018.cooley
+Fri Jun 02 14:30:20 2017 +0000 (UTC) COBALT_JOBID=1117683
+Fri Jun 02 14:30:20 2017 +0000 (UTC) COBALT_STARTTIME=1496413808
+Fri Jun 02 14:30:20 2017 +0000 (UTC) LOGNAME=kunkel
+Fri Jun 02 14:30:20 2017 +0000 (UTC) USER=kunkel
+Fri Jun 02 14:30:20 2017 +0000 (UTC) COBALT_ENDTIME=1496421008
+Fri Jun 02 14:30:20 2017 +0000 (UTC) COBALT_PARTSIZE=2
+Fri Jun 02 14:30:20 2017 +0000 (UTC) HOME=/home/kunkel
+Fri Jun 02 14:30:20 2017 +0000 (UTC) COBALT_JOBSIZE=2
+Fri Jun 02 14:30:20 2017 +0000 (UTC) 
+Fri Jun 02 14:30:20 2017 +0000 (UTC) Info: stdin received from /dev/null
+Fri Jun 02 14:30:20 2017 +0000 (UTC) Info: stdout sent to /gpfs/mira-home/kunkel/metadata/1117683.output
+Fri Jun 02 14:30:20 2017 +0000 (UTC) Info: stderr sent to /gpfs/mira-home/kunkel/metadata/1117683.error
+Fri Jun 02 14:30:20 2017 +0000 (UTC) 
+Fri Jun 02 14:43:23 2017 +0000 (UTC) Info: user delete requested with signal SIGTERM by user kunkel

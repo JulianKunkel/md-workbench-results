@@ -1,0 +1,98 @@
+[Precreating] missing directories
+[Starting] ior-easy-write
+[Warning]: the runtime is below 5 minutes
+1/ior-easy-write BW:25589.22 MB/s time: 1s
+[Starting] md-easy-create
+[Warning]: the runtime is below 5 minutes
+1/md-easy-create IOPs:4888.207 time:19s
+[Starting] ior-hard-write
+[Warning]: the runtime is below 5 minutes
+2/ior-hard-write BW:22.71 MB/s time: 1s
+[Starting] md-hard-create
+[Warning]: the runtime is below 5 minutes
+2/md-hard-create IOPs:5055.916 time:17s
+[Starting] ior-easy-read
+[Warning]: the runtime is below 5 minutes
+3/ior-easy-read BW:19718.54 MB/s time: 1s
+[Starting] md-easy-stat
+[Warning]: the runtime is below 5 minutes
+3/md-easy-stat IOPs:58601.531 time:5s
+[Starting] md-hard-read
+[Warning]: the runtime is below 5 minutes
+4/md-hard-read BW:338.80 MB/s time: 1s
+[Starting] md-hard-stat
+[Warning]: the runtime is below 5 minutes
+4/md-hard-stat IOPs:43018.863 time:6s
+[Starting] find
++ timestamp=/home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/timestamp
++ workdir=/home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0/
++ subtree_to_scan_config=/home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/subtree.cfg
+++ date +%s.%N
++ start=1499448264.350970913
++ C=0
+++ cat /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/subtree.cfg
++ for DIR in '$(cat $subtree_to_scan_config)'
++ C=1
++ for DIR in '$(cat $subtree_to_scan_config)'
++ C=2
++ for DIR in '$(cat $subtree_to_scan_config)'
++ C=3
++ wc -l
++ find /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0//mdtest_tree.0.0 -name '*.mdtest.*' -newer /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/timestamp -size +3000c
++ for DIR in '$(cat $subtree_to_scan_config)'
++ C=4
++ wc -l
++ find /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0//mdtest_tree.1.0 -name '*.mdtest.*' -newer /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/timestamp -size +3000c
++ for DIR in '$(cat $subtree_to_scan_config)'
++ C=5
++ wc -l
++ find /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0//mdtest_tree.2.0 -name '*.mdtest.*' -newer /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/timestamp -size +3000c
++ wc -l
++ wait
++ find /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0//mdtest_tree.3.0 -name '*.mdtest.*' -newer /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/timestamp -size +3000c
++ wc -l
++ find /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0//mdtest_tree.4.0 -name '*.mdtest.*' -newer /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/timestamp -size +3000c
++ found=0
++ C=0
+++ cat /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/subtree.cfg
++ for DIR in '$(cat $subtree_to_scan_config)'
++ C=1
+++ cat /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0//find-1
++ found=1000
++ for DIR in '$(cat $subtree_to_scan_config)'
++ C=2
+++ cat /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0//find-2
++ found=2000
++ for DIR in '$(cat $subtree_to_scan_config)'
++ C=3
+++ cat /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0//find-3
++ found=3000
++ for DIR in '$(cat $subtree_to_scan_config)'
++ C=4
+++ cat /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0//find-4
++ found=4000
++ for DIR in '$(cat $subtree_to_scan_config)'
++ C=5
+++ cat /home/dkrz/k202079/work/io-500/io-500-dev/proposal-draft/dkrz/io500/data/mdt_easy/#test-dir.0//find-5
++ found=5000
+++ date +%s.%N
++ end=1499448266.401964552
+++ echo 'scale=2; 1499448266.401964552 - 1499448264.350970913'
+++ bc
++ export duration=2.050993639
++ duration=2.050993639
++ echo 5000/2.050993639
++ bc
+[Warning]: the runtime is below 5 minutes
+5/find IOPs:2437 time:2s
+[Starting] md-easy-delete
+[Warning]: the runtime is below 5 minutes
+6/md-easy-delete IOPs:: time:13s
+[Starting] md-hard-delete
+[Warning]: the runtime is below 5 minutes
+7/md-hard-delete IOPs:13753.484 time:14s
+
+IO-500 bw score: 1403.7 MB/s
+IO-500 md score: 0 IOPS
+
+IO-500 score:  0
